@@ -27,7 +27,7 @@ load_dotenv()
 
 
 # load document embeddings
-cases = cases = load_jsonl("/Users/carlosalmeida/Downloads/yarado_sales_agent_dummy_zorg_v2_240.jsonl")
+cases = cases = load_jsonl(.....)
 document_embeddings, skipped = embed_cases(cases)
 
 
