@@ -1,0 +1,12 @@
+python-dotenv
+langgraph
+typing-extensions
+langchain-core
+langchain
+langchain-openai
+pydantic
+google-api-python-client
+numpy
+httpx
+beautifulsoup4
+requests
