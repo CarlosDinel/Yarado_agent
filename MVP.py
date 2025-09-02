@@ -9,8 +9,8 @@ from bs4 import BeautifulSoup
 # ---- Configuratie ----
 # API configuratie voor LLM en vector database
 
-api = "ai_specialist_key_1"
-api_code = "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"
+api = 
+api_code = 
 
 client = OpenAI(api_key=os.getenv("AI_SPECIALIST_KEY_1", api_code))
 
@@ -22,7 +22,7 @@ def load_jsonl(file_path):
             data.append(json.loads(line))
     return data
 
-cases = load_jsonl("/Users/carlosalmeida/Downloads/yarado_sales_agent_dummy_zorg_v2_240.jsonl")
+cases = load_jsonl(.....)
 
 # emebed complete cases with; id, task_name, organisation_name, organisation_profile, analysed_tasts, ai_tast_summary
 
